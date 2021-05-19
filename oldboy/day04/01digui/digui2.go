@@ -17,6 +17,6 @@ func taijie(n uint64) uint64 {
 }
 
 func main() {
-	ret := taijie(100)
+	ret := taijie(10)
 	fmt.Println(ret)
 }
