@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// 标识符：变量名，类型名，函数名，方法名
+// Go中如果标识符首字母是大写的，就表示对外可见（暴露的，公有的）
+
 // Go语言中的方法（Method）是一种作用于特定类型变量的函数。
 type dog struct {
 	name string
