@@ -15,14 +15,12 @@ func main() {
 		fmt.Printf("open file failed, err:%v\n", err)
 		return
 	}
+	// 记得关闭文件
 	defer file.Close()
 	reader := bufio.NewReader(file)
 	for {
 		line, err := reader.ReadString('\n') // 注意是字符
 		if err == io.EOF {
-			if len(line) != 0 {
-				fmt.Println(line)
-			}
 			fmt.Println("文件读完了")
 			break
 		}

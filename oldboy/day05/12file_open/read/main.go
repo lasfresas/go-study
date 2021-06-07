@@ -14,6 +14,7 @@ func main() {
 		fmt.Printf("open file failed!, err:%v\n", err)
 		return
 	}
+	// 记得关闭文件
 	defer file.Close()
 	// 循环读取文件
 	var content []byte
