@@ -11,11 +11,11 @@ import "fmt"
 */
 
 // 1. 生成0-100的数发送到ch1
-func f1(ch chan<- int) { // 参数里面的符号表示数据只能往里面入
+func f1(ch1 chan<- int) { // 参数里面的符号表示数据只能往里面入
 	for i := 0; i <= 100; i++ {
-		ch <- i
+		ch1 <- i
 	}
-	close(ch)
+	close(ch1)
 }
 
 // 2. 从ch1中取出数据计算它的平方，把结果发送到ch2中
