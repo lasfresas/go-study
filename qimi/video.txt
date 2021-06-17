@@ -3,3 +3,6 @@ https://www.bilibili.com/video/BV1ub411x7bj
 
 Go语言基础02 变量与常量
 https://www.bilibili.com/video/BV1Fb411M7sg
+
+Go语言基础03 基本数据类型
+https://www.bilibili.com/video/BV1qb411M785

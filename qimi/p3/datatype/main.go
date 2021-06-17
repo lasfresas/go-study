@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// p4 基本数据类型
+// 基本数据类型
 func main() {
 	// 十进制转二进制
 	n := 10
@@ -25,6 +25,7 @@ func main() {
 	fmt.Println("********分割线*********")
 
 	// 浮点型：go只有float32和float64，没有double！
+	// IEEE 754标准
 	fmt.Println(math.MaxFloat32)
 	fmt.Println(math.MaxFloat64)
 
@@ -44,9 +45,9 @@ func main() {
 	// 多行字符串，使用反引号``来包裹（反引号需要在英文模式下输入）
 	s1 := `
 第一行
-第二行
-第三行
-	原样输出
+	第二行
+		第三行
+			原样输出
 `
 	fmt.Println(s1)
 }
