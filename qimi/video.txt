@@ -6,3 +6,6 @@ https://www.bilibili.com/video/BV1Fb411M7sg
 
 Go语言基础03 基本数据类型
 https://www.bilibili.com/video/BV1qb411M785
+
+Go语言基础04 运算符
+https://www.bilibili.com/video/BV1vb41137R3
