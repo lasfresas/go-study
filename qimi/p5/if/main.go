@@ -1,6 +1,6 @@
 package main
 
-// p6 流程控制 if
+// 流程控制 if
 func main() {
 	var score = 65
 	if score >= 90 {

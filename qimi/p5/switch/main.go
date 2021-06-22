@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-// p6 流程控制 switch
+// 流程控制 switch
 func main() {
-	finger := 1
+	finger := 3
 	switch finger {
 	case 1:
 		fmt.Println("大拇指")
@@ -17,7 +17,7 @@ func main() {
 	case 5:
 		fmt.Println("小拇指")
 	default:
-		fmt.Println("阿巴阿巴阿巴")
+		fmt.Println("无效的输入")
 	}
 
 	// case中使用表达式

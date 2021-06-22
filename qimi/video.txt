@@ -9,3 +9,6 @@ https://www.bilibili.com/video/BV1qb411M785
 
 Go语言基础04 运算符
 https://www.bilibili.com/video/BV1vb41137R3
+
+Go语言基础05 流程控制
+https://www.bilibili.com/video/BV1ib41137KG
