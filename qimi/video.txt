@@ -12,3 +12,6 @@ https://www.bilibili.com/video/BV1vb41137R3
 
 Go语言基础05 流程控制
 https://www.bilibili.com/video/BV1ib41137KG
+
+Go语言基础06 数组
+https://www.bilibili.com/video/BV1Bb41137Ga
