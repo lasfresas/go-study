@@ -15,3 +15,6 @@ https://www.bilibili.com/video/BV1ib41137KG
 
 Go语言基础06 数组
 https://www.bilibili.com/video/BV1Bb41137Ga
+
+Go语言基础07 切片
+https://www.bilibili.com/video/BV1Qb411375e

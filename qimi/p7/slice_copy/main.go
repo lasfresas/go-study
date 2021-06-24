@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p8 切片复制
+// 切片复制
 func main() {
 	a := []int{1, 2, 3, 4, 5}
 	b := make([]int, 5, 5)
