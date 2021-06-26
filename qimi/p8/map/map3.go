@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p9 map
+// map(映射)
 
 func main() {
 	// 遍历map

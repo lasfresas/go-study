@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// p9 map
+// map(映射)
 // map是无序的
 func main() {
 	// 声明但不初始化,map的零值就是nil
@@ -17,7 +17,7 @@ func main() {
 	a["小明"] = 100
 	a["小强"] = 200
 	fmt.Println(a)
-	fmt.Printf("type:%T\n", a)
+	fmt.Printf("Type:%T\n", a) // Type:map[string]int
 	// 声明map的同时,完成初始化
 	b := map[int]bool{
 		1: true,
@@ -25,5 +25,5 @@ func main() {
 		3: true,
 	}
 	fmt.Printf("b:%#v\n", b)
-	fmt.Printf("type:%T\n", b)
+	fmt.Printf("Type:%T\n", b) // Type:map[int]bool
 }

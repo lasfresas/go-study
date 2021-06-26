@@ -6,7 +6,7 @@ import (
 	"sort"
 )
 
-// p9 map
+// map(映射)
 
 func main() {
 	// 按照某个固定顺序遍历map
@@ -20,10 +20,10 @@ func main() {
 	}
 
 	// 按照key从小到大的顺序去遍历scoreMap
-	// 1. 先取出所有的key存放到切片中
+	// 1. 先取出所有的key存放到切片keys中
 	keys := make([]string, 0, 100)
-	for k := range scoreMap {
-		keys = append(keys, k)
+	for key := range scoreMap { // 相当于for key, _ := range scoreMap{}
+		keys = append(keys, key)
 	}
 	// 2. 对key做排序
 	sort.Strings(keys) // keys目前是一个有序的切片
