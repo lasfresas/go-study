@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p10 函数进阶之变量作用域
+// 函数可以作为变量
 
 // 定义全局变量num
 var num int = 10
@@ -17,5 +17,8 @@ func testGlobal() {
 }
 
 func main() {
-	testGlobal()
+	// 函数可以作为变量，作为变量的时候没有括号
+	abc := testGlobal
+	abc()
+	fmt.Printf("%T\n", abc)
 }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p10 函数可以作为返回值
+// 函数可以作为参数
 
 func sum(x, y int) int {
 	return x + y

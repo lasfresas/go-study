@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-// p10 函数
+// 函数
 
-// 定义一个不需要参数也没有返回值的函数：sayHello
+// 定义一个不需要参数也没有返回值的函数
 func sayHello() {
 	fmt.Println("Hello,沙河小王子！")
 }
 
-// 定义一个接收string类型的name参数
+// 定义一个接收string类型的name参数的函数
 func sayHello2(name string) {
 	fmt.Println("Hello", name)
 }
@@ -24,8 +24,8 @@ func intSum2(a int, b int) (ret int) {
 	return
 }
 
-// 函数接收可变参数,在参数名后面加... 表示可变参数
-// 可变参数在函数体中是切片类型
+// 函数接收可变参数,在参数名后面加 ... 表示可变参数
+// *可变参数在函数体中是切片类型*
 func intSum3(a ...int) int {
 	ret := 0
 	for _, arg := range a {

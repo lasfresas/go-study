@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p10 defer:延迟执行
+// defer:延迟执行
 
 // 栈，先进后出
 func main() {
