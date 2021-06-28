@@ -2,11 +2,10 @@ package main
 
 import "fmt"
 
-// p11 匿名函数
+// 匿名函数
 
 func main() {
-	sayHello := func() {
+	func() {
 		fmt.Println("匿名函数")
-	}
-	sayHello()
+	}()
 }

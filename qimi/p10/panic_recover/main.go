@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p10 panic和recover
+// panic和recover
 
 // 注意：
 // 1. recover()必须搭配defer使用。
@@ -16,7 +16,7 @@ func b() {
 	defer func() {
 		err := recover()
 		if err != nil {
-			fmt.Println("func b error")
+			fmt.Println("func b error, the err is:", err)
 		}
 	}()
 	panic("panic in b")

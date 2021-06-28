@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p10 闭包
+// 闭包
 func calc(base int) (func(int) int, func(int) int) {
 	add := func(i int) int {
 		base += i
