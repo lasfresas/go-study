@@ -24,3 +24,6 @@ https://www.bilibili.com/video/BV1Db41137Se
 
 Go语言基础09 函数
 https://www.bilibili.com/video/BV1Xb41137vK
+
+Go语言基础10 匿名函数和闭包
+https://www.bilibili.com/video/BV1Xb41137Cn
