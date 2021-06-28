@@ -27,3 +27,24 @@ https://www.bilibili.com/video/BV1Xb41137vK
 
 Go语言基础10 匿名函数和闭包
 https://www.bilibili.com/video/BV1Xb41137Cn
+
+Go语言基础11 指针
+https://www.bilibili.com/video/BV124411E7uc
+
+Go语言基础12自定义类型和类型别名
+https://www.bilibili.com/video/BV19x411o75N
+
+Go语言基础 13结构体定义与实例化
+https://www.bilibili.com/video/BV1Xx411o7Xo
+
+Go语言基础14 方法和接收者
+https://www.bilibili.com/video/BV1Mx411d7ww
+
+Go语言基础15 结构体嵌套
+https://www.bilibili.com/video/BV1zx411f7ou
+
+Go语言基础16 结构体字段可见性和JSON
+https://www.bilibili.com/video/BV1st41157k1
+
+Go语言基础17 学员信息管理系统练习
+https://www.bilibili.com/video/BV19t41157Wn
