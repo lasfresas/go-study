@@ -31,10 +31,10 @@ https://www.bilibili.com/video/BV1Xb41137Cn
 Go语言基础11 指针
 https://www.bilibili.com/video/BV124411E7uc
 
-Go语言基础12自定义类型和类型别名
+Go语言基础12 自定义类型和类型别名
 https://www.bilibili.com/video/BV19x411o75N
 
-Go语言基础 13结构体定义与实例化
+Go语言基础13 结构体定义与实例化
 https://www.bilibili.com/video/BV1Xx411o7Xo
 
 Go语言基础14 方法和接收者
