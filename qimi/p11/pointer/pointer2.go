@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// p12 指针传值
 // Go的函数传值：值拷贝(ctrl+c、ctrl+v)
 
 func modify1(x int) {
