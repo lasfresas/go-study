@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p14 结构体指针
+// 结构体指针
 
 type person struct {
 	name string
@@ -12,7 +12,7 @@ type person struct {
 
 func main() {
 	var p1 = new(person)
-	fmt.Printf("type p1: %T\n", p1)
+	fmt.Printf("Type p1: %T\n", p1)
 	(*p1).name = "小草莓" // 标准写法
 	p1.age = 26        // 语法糖
 	p1.city = "上海"     // 语法糖
@@ -20,7 +20,7 @@ func main() {
 
 	// 取结构体的地址进行实例化
 	p2 := &person{}
-	fmt.Printf("type p2: %T\n", p2)
+	fmt.Printf("Type p2: %T\n", p2)
 	p2.name = "大草莓"
 	p2.age = 31
 	p2.city = "旧金山"

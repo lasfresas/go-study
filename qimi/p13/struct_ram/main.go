@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p14 结构体的内存布局
+// 结构体的内存布局
 
 func main() {
 	// 结构体占用一块连续的内存

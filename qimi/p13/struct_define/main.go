@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-// p14 结构体初识
+// 结构体初识
 
 // 结构体本质上是一种聚合型的数据类型
 type person struct {
-	name string
-	age  int
-	city string
+	name string // 不用写逗号
+	age  int    // 不用写逗号
+	city string // 不用写逗号
 }
 
 func main() {

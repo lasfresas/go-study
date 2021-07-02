@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p14 结构体的构造函数:构造一个结构体实例的函数
+// 结构体的构造函数: 构造一个结构体实例的函数
 // 结构体是值类型
 
 type person struct {
@@ -22,5 +22,5 @@ func newPerson(name string, age int, city string) *person {
 
 func main() {
 	p1 := newPerson("小米", 20, "北京")
-	fmt.Printf("type: %T value: %#v\n", p1, p1)
+	fmt.Printf("Type:%T\nValue:%#v\n", p1, p1)
 }
