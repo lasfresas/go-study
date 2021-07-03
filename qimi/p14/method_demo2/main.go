@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// p15 方法和接收者
 /*
 方法只能写在类型所在的包里,不能给别的包的类型定义方法,类型和类型的方法必须在一个包
 */
@@ -12,7 +11,7 @@ type MyInt int
 
 // SayHello 为MyInt添加一个SayHello的方法
 func (m MyInt) SayHello() {
-	fmt.Println("Hello, 我是一个int。")
+	fmt.Println("Hello, 我是一个MyInt。")
 }
 
 func main() {

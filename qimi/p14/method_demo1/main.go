@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// p15 方法和接收者
+// 方法是有接收者的特殊函数
 
 // Person 是一个结构体
 type Person struct {
@@ -19,14 +19,12 @@ func NewPerson(name string, age int) *Person {
 }
 
 // Dream 是为Person类型定义方法。
-// 值接收者
-func (p Person) Dream() {
+func (p Person) Dream() { // 1. 值接收者
 	fmt.Printf("%s的梦想是学好Go语言\n", p.name)
 }
 
 // SetAge 是一个修改年龄的方法。
-// 指针接收者
-func (p *Person) SetAge(newAge int) {
+func (p *Person) SetAge(newAge int) { // 2. 指针接收者
 	p.age = newAge
 }
 
