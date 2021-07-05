@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// 结构体字段可见性 & 序列化和反序列化
+// 序列化
 
 // 如果一个Go语言包中定义的标识符是首字母大写的,那么就是对外可见的
 type student struct {
@@ -39,7 +39,8 @@ func main() {
 		tmpStu := newStudent(i, fmt.Sprintf("stu%02d", i))
 		c1.Students = append(c1.Students, tmpStu)
 	}
-	fmt.Printf("%#v\n", c1)
+	fmt.Printf("Type of c1: %T\n", c1) // main.class
+	fmt.Printf("c1: %v\n", c1)
 
 	// 序列化: Go语言中的数据 -> JSON格式的字符串
 	data, err := json.Marshal(c1)
@@ -47,16 +48,6 @@ func main() {
 		fmt.Println("json marshal failed, err:", err)
 		return
 	}
-	fmt.Printf("%T\n", data) // []uint8
-	fmt.Printf("%s\n", data)
-
-	// 反序列化: JSON格式的字符串 -> Go语言中的数据
-	var c2 class
-	jsonStr := `{"Title":"火箭101","Students":[{"ID":1,"Name":"stu01"},{"ID":2,"Name":"stu02"},{"ID":3,"Name":"stu03"},{"ID":4,"Name":"stu04"},{"ID":5,"Name":"stu05"},{"ID":6,"Name":"stu06"},{"ID":7,"Name":"stu07"},{"ID":8,"Name":"stu08"},{"ID":9,"Name":"stu09"},{"ID":10,"Name":"stu10"}]}`
-	err = json.Unmarshal([]byte(jsonStr), &c2)
-	if err != nil {
-		fmt.Println("json unmarshal failed, err:", err)
-		return
-	}
-	fmt.Printf("%#v\n", c2)
+	fmt.Printf("Type of data: %T\n", data) // []uint8
+	fmt.Printf("data: %s\n", data)
 }
