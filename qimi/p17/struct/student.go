@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// student类型
 type student struct {
 	id    int // 学号是唯一的
 	name  string
@@ -9,7 +10,7 @@ type student struct {
 }
 
 // student类型的构造函数
-func newStudent(id int, name, class string) *student {
+func newStudent(id int, name string, class string) *student {
 	return &student{
 		id:    id,
 		name:  name,
@@ -17,12 +18,12 @@ func newStudent(id int, name, class string) *student {
 	}
 }
 
-// 学员管理的类型
+// 学员管理的类型(把学员的信息存储到切片里面)
 type studentMgr struct {
 	allStudents []*student
 }
 
-// newStudentMgr 是studentMgr的构造函数
+// studentMgr的构造函数
 func newStudentMgr() *studentMgr {
 	return &studentMgr{
 		allStudents: make([]*student, 0, 100),
@@ -37,8 +38,8 @@ func (s *studentMgr) addStudent(newStu *student) {
 // 2. 编辑学生
 func (s *studentMgr) modifyStudent(newStu *student) {
 	for i, v := range s.allStudents {
-		if newStu.id == v.id { // 当学号相同时,就表示找到了要修改的学生
-			s.allStudents[i] = newStu // 根据切片的索引直接把新学生赋值进来
+		if newStu.id == v.id { // 当学号相同时，就表示找到了要修改的学生
+			s.allStudents[i] = newStu // 根据切片的索引直接把新学生赋值进来替换掉老学生
 			return
 		}
 	}
