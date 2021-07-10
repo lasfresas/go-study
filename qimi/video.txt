@@ -48,3 +48,6 @@ https://www.bilibili.com/video/BV1st41157k1
 
 Go语言基础17 学员信息管理系统练习
 https://www.bilibili.com/video/BV19t41157Wn
+
+Go语言基础18 Go语言中的包简介
+https://www.bilibili.com/video/BV1gt411F7nT
