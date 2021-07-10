@@ -51,3 +51,6 @@ https://www.bilibili.com/video/BV19t41157Wn
 
 Go语言基础18 Go语言中的包简介
 https://www.bilibili.com/video/BV1gt411F7nT
+
+Go语言基础19 接口interface
+https://www.bilibili.com/video/BV1Gt411F7uE

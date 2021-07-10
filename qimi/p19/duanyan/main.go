@@ -12,11 +12,12 @@ import "fmt"
 
 func main() {
 	var x interface{}
-	x = "Hello 沙河"
-	v, ok := x.(string)
+	x = "Hello"
+
+	v, ok := x.(string) // 猜对了ok为true，v是x的值；猜错了ok为false，v是对应的0值。
 	if ok {
-		fmt.Println(v)
+		fmt.Println("猜对了", v)
 	} else {
-		fmt.Println("类型断言失败")
+		fmt.Println("猜错了", v)
 	}
 }
