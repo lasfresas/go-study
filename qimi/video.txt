@@ -54,3 +54,6 @@ https://www.bilibili.com/video/BV1gt411F7nT
 
 Go语言基础19 接口interface
 https://www.bilibili.com/video/BV1Gt411F7uE
+
+Go语言基础20 标准库time介绍
+https://www.bilibili.com/video/BV1Jt411T7Jw
