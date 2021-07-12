@@ -57,3 +57,6 @@ https://www.bilibili.com/video/BV1Gt411F7uE
 
 Go语言基础20 标准库time介绍
 https://www.bilibili.com/video/BV1Jt411T7Jw
+
+Go语言基础21 文件操作
+https://www.bilibili.com/video/BV1Jt411T7nE
